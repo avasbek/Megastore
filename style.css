@@ -1,0 +1,404 @@
+
+body{
+	background: #000;
+}
+
+input{
+	margin:0;
+}
+
+.body{
+	width: 640px;
+	height: 264px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 200px;
+	left: 400px;
+	border-radius: 4px;
+}
+
+.close{
+	background: none;
+	border: none;
+	position: relative;
+	left:600px;
+	top: 16px;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}
+
+.text{	
+	position: relative;
+	top: 20px;
+	font-family: 'Sora', sans-serif;
+	text-align: center;
+	font-size: 16px;
+	margin:0;
+	font-weight: 600;
+}
+
+.sub_text{
+	font-family: 'Sora', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	position: relative;
+	top: 20px;
+	left: 16px;
+	margin-top:0 ;
+}
+
+.page1{
+	display: flex;
+	flex-direction: column;
+}
+
+.input_number{
+	position: relative;
+	left: 16px;
+	top: 20px;
+	height: 48px;
+	width: 608px;
+	border: 0.5px solid #DADADA;
+	border-radius: 4px;
+}
+
+.next{
+	width: 384px;
+	height: 48px;
+	background: #232529;
+	font-family: 'Sora', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 1px;
+	position: relative;
+	top: 36px;
+	left: 128px;
+}
+
+.body2{
+	width: 640px;
+	height: 328px;
+	background: #FFFFFF;
+	border-radius: 4px;
+}
+
+.text2{
+	font-family: 'Sora', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.subtext2{
+	font-family: 'Sora', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: #A9A9A9;
+}
+
+.input_number{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.number{
+	position: relative;
+	left: 212px;
+	top:8px;
+	text-align: center;
+	color: #141414;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	width: 48px;
+	height: 48px;
+	background: #FFFFFF;
+	border: 0.5px solid #DADADA;
+	border-radius: 12px;
+}
+
+.reg-3{
+	width: 664px;
+	height: 576px;
+	background: white;
+	box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	position: relative;
+	left: 388px;
+	top: 248px;
+}
+
+.title{
+	font-family: 'Sora', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	position: absolute;
+	top: 40px;
+	left: 20px;
+}
+
+.sub-title{
+	position: absolute;
+	top: 88px;
+	left: 24px;
+	font-family: 'Sora', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.fill-field-1{
+	display: flex;
+	justify-content: space-around;
+	margin-top:120px;
+	margin-left:24px;
+	margin-right: 24px;
+}
+
+.field-1{
+	width: 200px;
+	height: 48px;
+	border: 0.5px solid #AEAEAE;
+	opacity: 0.5;
+	border-radius: 8px;
+	
+}
+
+input[type="text"]::placeholder{
+	padding-left: 16px;
+	font-family: 'Sora', sans-serif;
+	font-size: 14px;
+	line-height: 18px;	
+	color: #DADADA;
+}
+.mar-8{
+	margin:0 8px;
+}
+
+input{
+	opacity: 0.5;
+	border: 0.5px solid #AEAEAE;
+	border-radius: 8px;
+	height: 48px;
+}
+
+.data{
+	font-family: 'Sora', sans-serif;
+	margin-left: 24px;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.date{
+	width: 200px;
+	margin-left: 24px;
+}
+
+.geo{
+	width: 408px;
+}
+
+.an-d{
+	width: 200px;
+	margin-left: 24px;
+	margin-top: 16px;
+}
+
+.inn{
+	width: 200px;
+}
+
+.date-2{
+	width: 200px;
+}
+
+
+.number1{
+	width: 200px;
+	margin-left: 24px;
+	margin-top: 16px;
+}
+
+.gmail{
+	width: 200px;
+}
+
+.bank{
+	width: 200px;
+}
+
+.live{
+	width: 408px;
+	margin-left: 24px;
+	margin-top: 16px
+}
+
+.btn-3{
+	width: 384px;
+	height: 48px;
+	background: #232529;
+	font-family: 'Sora', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-top:20px;
+	margin-left: 140px;
+}
+
+.reg-4{
+	width: 664px;
+	height: 608px;
+	background: white;
+	box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	position: relative;
+	left: 388px;
+	top: 248px;
+}
+
+.title-4{
+	font-family: 'Sora', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	position: absolute;
+	top: 40px;
+	left: 20px;
+}
+
+.inputs{
+	position: absolute;
+	top: 88px;
+	left: 24px;
+	margin-top: 20px;
+}
+
+.organization{
+	width: 408px;
+	margin-bottom: 16px;
+}
+
+.level{
+	width: 200px;
+
+}
+
+.month{
+	width: 304px;
+}
+
+.credit{
+	font-family: 'Sora', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	position:absolute;
+	left: 24px;
+	top: 232px;
+}
+
+.inputs-2{
+	position: relative;
+	top: 240px;
+	left: 24px;
+}
+
+.buy{
+	width: 625px;
+	margin-bottom: 16px;
+}
+
+.price{
+	width: 200px;
+	margin-bottom: 16px;
+}
+
+.type{
+	width: 200px;
+	padding-right: 100px;
+	margin-bottom: 16px;
+}
+
+.position{
+	width: 625px;
+	margin-bottom: 40px;
+}
+
+.btn-4{
+	border-radius: 4px;
+	width: 352px;
+	height: 48px;
+	background: #232529;
+	font-family: 'Sora', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 1px;
+	position: absolute;
+	top: 520px;
+}
+
+.finish{
+	width: 640px;
+	height: 328px;
+	background: white;
+	border-radius: 4px;
+	position: relative;
+	left: 400px;
+	top: 244px;
+}
+
+.request{
+	font-family: 'Sora', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	position: absolute;
+	top: 40px;
+	left: 196px;
+}
+
+.time-5{
+	font-family: 'Sora', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #A9A9A9;
+	position: relative;
+	top: 52px;
+	left: 176px;
+}
+
+.gall{
+	position: absolute;
+	top: 130px;
+	left: 259px;
+}
+
+.ok{
+	border-radius: 4px;
+	width: 384px;
+	height: 48px;
+	background: #232529;
+	font-family: 'Sora', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 1px;
+	position: absolute;
+	left: 128px;
+	top: 232px;
+}

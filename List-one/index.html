@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Регистрация</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+	<div class="body">
+		<button class="close">
+			<img src="../media/x.svg" alt="">
+		</button>
+		<h1 class="text">Авторизация </h1>
+		<p class="sub_text">Введите номер телефона</p>
+		<form class="page1">
+			<input type="tel" pattern="/^-?\d+\.?\d*$/" onKeyPress="if(this.value.length==12) return false;" placeholder="+996 555 000 000" class="input_number">
+			<button class="next">Далее</button>
+		</form>
+	</div>
+</body>
+</html>
